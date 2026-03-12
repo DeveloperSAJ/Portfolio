@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+.shadow-box {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+span{
+  margin-left: 20px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
