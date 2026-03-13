@@ -3,7 +3,7 @@ import React from "react";
 export const Card = ({ image, title, t1,t2,t3,t4 , description }) => {
   return (
     <div>
-      <div className="flex flex-col my-5 mx-auto w-[95%] font-bold text-2xl font-mono text-white bg-gradient-to-r from-black to-gray-600 border-none rounded-xl shadow-box h-120">
+      <div className="hover:scale-102 transition flex flex-col my-5 mx-auto w-[95%] font-bold text-2xl font-mono text-white bg-gradient-to-r from-black to-gray-600 border-none rounded-xl shadow-box h-120">
         <div className="">
           <img src={image} alt={title} className=" rounded-xl w-[85%] mx-auto my-5 shadow-box"/>
         </div>

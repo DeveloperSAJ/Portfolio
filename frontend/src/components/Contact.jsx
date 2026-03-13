@@ -20,7 +20,7 @@ export const Contact = () => {
             />
           </div>
 
-          <div className="hidden lg:block mx-auto text-xl py-10">
+          <div className="hidden lg:block mx-auto text-xl py-8">
             <ul className="flex flex-col gap-5 cursor-pointer">
               <li>
                 <a href="#home">Home</a>
@@ -37,7 +37,7 @@ export const Contact = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col mx-auto py-10 gap-5 text-white text-xl font-mono">
+          <div className="flex flex-col mx-auto py-5 gap-8 text-white text-xl font-mono">
             <div className="flex items-center gap-4">
               <FaLinkedin className="text-2xl text-sky-400" />
               <label className="font-bold">LinkedIn:</label>
