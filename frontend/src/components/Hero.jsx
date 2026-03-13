@@ -9,7 +9,7 @@ export const Hero = () => {
           <h2>Hello There!</h2>
           <h1 className='text-4xl text-emerald-500'>I am Full Stack Developer</h1>
           <h2>I create impressive websites.</h2>
-          <button className='p-4 my-10 bg-emerald-500 w-fit border-none rounded-xl shadow-xl'><a href='#about'>Know More →</a></button>
+          <button className='p-4 my-10 bg-emerald-500 w-fit border-none rounded-xl shadow-xl hover:scale-105 transition'><a href='#about'>Know More →</a></button>
         </div>
         <div>
           <img src={person} alt="hero-image" className='h-130 ' />
