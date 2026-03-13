@@ -41,7 +41,7 @@ export const About = () => {
             </div>
             <div>
               <label>Email:</label>
-              <span>developersaj981@gmail.com</span>
+              <span className="break-all">developersaj981@gmail.com</span>
             </div>
           </div>
           <a

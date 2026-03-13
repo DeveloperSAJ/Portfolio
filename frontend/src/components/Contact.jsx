@@ -65,7 +65,7 @@ export const Contact = () => {
             <div className="flex items-center gap-4">
               <FaEnvelope className="text-2xl text-red-400" />
               <label className="font-bold">Email:</label>
-              <p className="text-[15px] md:text-xl">
+              <p className="text-[15px] break-all md:text-xl">
                 developersaj981@gmail.com
               </p>
             </div>
