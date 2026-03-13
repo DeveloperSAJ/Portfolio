@@ -4,10 +4,10 @@ import person from "../assets/person.png";
 export const Hero = () => {
   return (
     <div id="home">
-      <div className="mx-auto text-center md:text-left h-130 w-[95%] bg-gradient-to-r from-black to-gray-500 border-none rounded-xl shadow-box flex ">
-        <div className="flex flex-1 flex-col gap-3 font-mono text-2xl font-bold text-white pt-20 lg:pt-40 px-10">
+      <div className="mx-auto text-center md:text-left h-130 w-[95%] bg-gradient-to-r from-black to-gray-600 border-none rounded-xl shadow-box flex ">
+        <div className="flex flex-1 flex-col gap-3 font-mono text-xl md:text-2xl font-bold text-white pt-20 lg:pt-40 px-10">
           <h2>Hello There!</h2>
-          <h1 className="text-4xl text-emerald-500">
+          <h1 className="text-2xl md:text-4xl text-emerald-500">
             I am Full Stack Developer
           </h1>
           <h2>I create impressive websites.</h2>

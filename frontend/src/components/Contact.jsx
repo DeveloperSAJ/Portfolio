@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <div id="#contact">
       <div
-        className="w-[95%] mx-auto bg-gradient-to-r from-black to-gray-500 border-none rounded-xl shadow-box"
+        className="w-[95%] mx-auto bg-gradient-to-r from-black to-gray-600 border-none rounded-xl shadow-box"
       >
         <p className="pt-5 text-2xl text-center font-bold text-emerald-500">
           Contact
